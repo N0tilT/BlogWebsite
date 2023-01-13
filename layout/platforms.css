@@ -1,0 +1,16 @@
+.platforms-text{
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 74px;
+}
+
+.links-container{
+    display: inline-flex;
+    margin-top: 19px;
+    column-gap: 46px;
+}
+
+.social_image{
+    width: 104px;
+    height: 98px;
+}

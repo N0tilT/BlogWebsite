@@ -1,0 +1,33 @@
+.email-text{
+    margin-bottom: 74px;
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    height: 118px;
+    width: 948px;
+    text-align: center;
+}
+
+.email{
+    width: 521px;
+    height: 61px;
+    background-color: #C4C4C4;
+    border: none;
+    font-family: 'Gentium Book Basic';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+    text-align: center;
+}
+
+.subscribe{
+    width: 275px;
+    height: 61px;
+    border: none;
+    background-color: #000000;
+    color: #FFFFFF;
+    font-family: 'Gentium Book Basic';
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 28px;
+}

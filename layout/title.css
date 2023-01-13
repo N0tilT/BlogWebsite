@@ -1,0 +1,19 @@
+.preview-text{
+    width: 1373px;
+    font-weight: 400;
+    font-size: 64px;
+    line-height: 74px;
+    text-align: center;
+}
+
+.avatar__image{
+    width: 436px;
+    height: 436px;;
+}
+
+@media (max-width: 390px){
+    .avatar__image{
+        width: 300px;
+        height: 300px;
+    }
+}
