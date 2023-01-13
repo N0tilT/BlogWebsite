@@ -1,0 +1,35 @@
+.preview__container{
+    flex-direction:column; 
+    margin-top: 94px; 
+    margin-bottom: 177px;
+}
+
+.preview-text{
+    width: 1373px;
+    margin-top: 94px;
+    font-size: 64px;
+    line-height: 74px;
+    text-align: center;
+}
+
+.preview-link{
+    margin:auto; 
+    margin-top: 54px; 
+    margin-right: 71px;
+}
+
+@media (max-width: 390px){
+    .preview-text{
+        margin-top: 201px;
+        margin-bottom: 43px;
+        font-size: 36px;
+        line-height: 42px;
+        width: 341px;
+    }
+
+    .preview-link{
+        font-size: 28px;
+        line-height: 32px;
+        margin-right: 25px;
+    }
+}

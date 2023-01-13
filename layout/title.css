@@ -1,8 +1,21 @@
-.preview-text{
-    width: 1373px;
-    font-weight: 400;
+.title__container{
+    margin-top: 70px;
+    column-gap: 140px;
+    margin-bottom: 170px;
+}
+
+.title__h1--greet{
+    width: 500px;
+    font-weight: 700;
     font-size: 64px;
     line-height: 74px;
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.title__p--description{
+    font-size: 36px;
+    line-height: 42px;
     text-align: center;
 }
 
@@ -12,8 +25,28 @@
 }
 
 @media (max-width: 390px){
+    .title__container{
+        flex-direction: column;
+        margin-top: 48px;
+        margin-bottom: 67px;
+    }
+
     .avatar__image{
         width: 300px;
         height: 300px;
+    }
+
+    .title__h1--greet{
+        width: 390px;
+        margin-top: 62px;
+        font-weight: 400;
+        font-size: 48px;
+        line-height: 56px;
+    }
+
+    .title__p--description{
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
     }
 }
