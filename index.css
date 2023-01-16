@@ -4,7 +4,8 @@
 @import url(layout/header.css);
 @import url(layout/containers.css);
 @import url(layout/title.css);
-@import url(layout/post.css);
+@import url(layout/posts.css);
+@import url(layout/email.css);
 @import url(layout/platforms.css);
 @import url(layout/preview.css);
 

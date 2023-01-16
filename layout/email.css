@@ -1,10 +1,20 @@
-.email-text{
+.email__container{
+    flex-direction: column; 
+    margin-top: 71px; 
+    margin-bottom: 93px;
+    margin-left: 25px;
+    margin-right: 25px;
+}
+
+
+.email__input{
+    display: inline-block;
+}
+.email__text{
     margin-bottom: 74px;
     font-weight: 400;
     font-size: 36px;
     line-height: 42px;
-    height: 118px;
-    width: 948px;
     text-align: center;
 }
 
@@ -30,4 +40,26 @@
     font-weight: 400;
     font-size: 24px;
     line-height: 28px;
+}
+
+@media (max-width: 390px ) {
+    .email__text{
+        font-weight: 400;
+        font-size: 20px;
+        line-height: 23px;
+        margin-bottom: 40px;
+    }
+
+    .email__container{
+        margin-bottom: 27px;
+    }
+
+    .email{
+        width: 341px;
+        height: 79px;
+    }
+    .subscribe{
+        width: 341px;
+        height: 60px;
+    }
 }
